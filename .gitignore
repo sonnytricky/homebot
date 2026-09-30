@@ -48,8 +48,10 @@
 !/.github/PULL_REQUEST_TEMPLATE.md
 
 # Notizen
+!/.notes/Format-Check.md
 !/.notes/hybriderAnsatz.md
 !/.notes/Roadmap.md
+!/.notes/TODO
 
 
 !/.vscode/settings.json
