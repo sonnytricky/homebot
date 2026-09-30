@@ -1,0 +1,64 @@
+##############################################
+# Alles ignorieren                               # * bedeutet alles
+##############################################
+*
+
+##############################################
+# Verzeichnisse wieder erlauben
+##############################################
+!*/
+
+##############################################
+# Ordner ignorieren
+##############################################
+/node_modules/
+# /.Releases/
+# *.Releases/
+# !*/.Releases/
+# /.aLT/
+# *.aLT/
+# !*/.aLT/
+
+##############################################
+# Verzeichnisse wieder erlauben                  # !*/Unterordner/
+##############################################
+!*/.docs/
+!*/.github/ISSUE_TEMPLATE/
+#!*/.github/workflows/
+!/.images/
+!/.notes/
+!/.vscode/
+
+##############################################
+# Ausnahme: diese Dateien NICHT ignorieren
+##############################################
+# Beispiel:
+# - für Dateien in Unterordnern                  # !/Pfad/zur/Datein.txt
+# - für einzelne Dateien                         # !Datein.txt
+##############################################
+# Dokumentation
+!/.docs/Projektstruktur.md
+!/.docs/Visionen.md
+
+# .github/
+!/.github/ISSUE_TEMPLATE/bug_report.md
+!/.github/ISSUE_TEMPLATE/feature_request.md
+!/.github/ISSUE_TEMPLATE/idea.md
+!/.github/ISSUE_TEMPLATE/task.md
+!/.github/PULL_REQUEST_TEMPLATE.md
+
+# Notizen
+!/.notes/hybriderAnsatz.md
+!/.notes/Roadmap.md
+
+
+!/.vscode/settings.json
+!/.gitattributes
+!/.gitignore
+!/.prettierignore
+!/.prettierrc
+!/LICENSE
+!/package-lock.json
+!/package.json
+!/README.md
+
