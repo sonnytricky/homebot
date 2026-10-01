@@ -47,6 +47,9 @@
 !/.github/ISSUE_TEMPLATE/task.md
 !/.github/PULL_REQUEST_TEMPLATE.md
 
+# .images
+!/.images/robot-outline-white.png 
+
 # Notizen
 !/.notes/Format-Check.md
 !/.notes/hybriderAnsatz.md
